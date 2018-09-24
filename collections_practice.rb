@@ -33,3 +33,7 @@ def merge_data(keys, data)
   keys.each {|i| data.first.map {|k,v| if i.values[0] == k then newArray << i.merge(v) end}} 
   newArray 
 end 
+
+def find_cool(string)
+  string.select {|i| i.any? {|k,v| v == "cool}}"
+end 
