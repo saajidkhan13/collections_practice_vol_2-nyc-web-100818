@@ -27,19 +27,19 @@ def count_elements(array)
   array.each {|i2| if i2 == i then count += 1 end} 
   i[:count] = count} 
 end 
-end 
+ 
 
 def merge_data(keys, data) 
   newArray = [] 
   keys.each {|i| data.first.map {|k,v| if i.values[0] == k then newArray << i.merge(v) end}} 
   newArray 
 end 
-end 
+ 
 
 def find_cool(cool)
   cool.select {|i| i.any? {|k,v| v == "cool}}"
 end 
-end 
+end
 
 def organize_schools(schools)
   school_locations= {} 
