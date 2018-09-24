@@ -37,3 +37,9 @@ end
 def find_cool(cool)
   cool.select {|i| i.any? {|k,v| v == "cool}}"
 end 
+
+def organize_schools(schools)
+  school_locations= {} 
+  schools.collect {|k,v| school_locations[v[:location]] = []} 
+  school_locations.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1 end}}
+end 
