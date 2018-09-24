@@ -37,3 +37,5 @@ end
 def find_cool(string)
   string.select {|i| i.any? {|k,v| v == "cool}}"
 end 
+
+end 
