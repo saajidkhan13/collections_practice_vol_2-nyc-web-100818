@@ -43,4 +43,5 @@ def find_cool(array)
   cool_hashes
 end 
 
+def organize_schools()
 
