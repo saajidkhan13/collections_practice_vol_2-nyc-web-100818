@@ -9,3 +9,9 @@ def contain_a(array)
     word.include?("a") 
   end 
 end 
+
+def first_wa(array) 
+  array.detect do |word| 
+    word[0,2] == "wa" 
+  end 
+end 
