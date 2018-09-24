@@ -47,3 +47,4 @@ def organize_schools(schools)
   school_locations.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1 end}}
 end 
 end 
+end 
